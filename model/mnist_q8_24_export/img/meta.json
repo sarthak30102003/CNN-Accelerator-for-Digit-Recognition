@@ -1,0 +1,16 @@
+{
+  "in_dim": 784,
+  "hidden": 128,
+  "out_dim": 10,
+  "q_format": "Q8.24 (signed)",
+  "frac_bits": 24,
+  "scale": 16777216,
+  "test_acc": 0.9711,
+  "notes": [
+    "W1.hex order: for out in [0..hidden-1], for in in [0..783], one 32-bit HEX word per line.",
+    "B1.hex: hidden lines; W2.hex: for out in [0..9], for in in [0..hidden-1].",
+    "B2.hex: 10 lines.",
+    "image_xxxx.hex: 784 lines (flattened row-major 28x28) in Q8.24.",
+    "Two's complement 32-bit (8 hex chars per line, uppercase)."
+  ]
+}
