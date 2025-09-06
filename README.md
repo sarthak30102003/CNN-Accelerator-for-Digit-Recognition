@@ -4,7 +4,7 @@ This project implements a **Deep Neural Network (DNN) accelerator** on FPGA for 
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
 ```
 DNN-Accelerator-for-Digit-Recognition/
@@ -38,7 +38,7 @@ DNN-Accelerator-for-Digit-Recognition/
 
 ---
 
-## Features
+## 🚀 Features
 
 - Fully custom **DNN hardware accelerator** for MNIST digit recognition.
 - Implemented in **SystemVerilog** with modular design:
@@ -51,7 +51,7 @@ DNN-Accelerator-for-Digit-Recognition/
 
 ---
 
-## Workflow
+## ⚙️ Workflow
 
 1. **Train the DNN model**
    ```bash
@@ -77,7 +77,7 @@ DNN-Accelerator-for-Digit-Recognition/
 
 ---
 
-## DNN Accelerator Block Diagram
+## 🏗️ DNN Accelerator Block Diagram
 
 ```
           +-------------------------+
@@ -116,7 +116,7 @@ DNN-Accelerator-for-Digit-Recognition/
 
 ---
 
-## Example Test Images
+## 🖼️ Example Test Images
 
 Sample input images are provided in:
 ```
@@ -126,7 +126,7 @@ Each `.hex` and `.mem` file corresponds to a digit from the MNIST dataset.
 
 ---
 
-## Documentation
+## 📖 Documentation
 
 For detailed methodology, design choices, and results, refer to:
 ```
@@ -135,7 +135,7 @@ mnist_FPGA_report.pdf
 
 ---
 
-## Tools & Requirements
+## 🔧 Tools & Requirements
 
 - **Python 3.x** with:
   - `numpy`, `torch`, `tensorflow/keras` (for training)
@@ -144,7 +144,7 @@ mnist_FPGA_report.pdf
 
 ---
 
-## Future Improvements
+## 📌 Future Improvements
 
 - Add support for deeper DNN layers and more neurons.
 - Explore hardware support for other activations (e.g., sigmoid, tanh).
@@ -153,6 +153,6 @@ mnist_FPGA_report.pdf
 
 ---
 
-## Authors
+## 👨‍💻 Authors
 
 Developed as part of a hardware accelerator project for efficient digit recognition using FPGA.
